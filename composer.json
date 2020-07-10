@@ -1,0 +1,17 @@
+{
+    "name": "asus/ecom",
+    "description": "Product upload",
+    "type": "project",
+    "license": "JNU3",
+    "authors": [
+        {
+            "name": "Radha Raman",
+            "email": "aptech.bhilai12@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "kreait/firebase-php": "4.x-dev",
+        "kreait/firebase-tokens": "1.10"
+    }
+}

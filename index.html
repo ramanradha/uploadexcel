@@ -1,0 +1,45 @@
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link href="css/style.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/fileupload.js"></script>
+<!-- Include the above in your HEAD tag -->
+</head>
+<body>
+    
+    <script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<div class="file-upload">
+<form action="upload_products.php" method="post" enctype="multipart/form-data">
+  <button class="file-upload-btn" type="button" onclick="$('.file-upload-input').trigger( 'click' )">Add Excel File</button>
+
+  <div class="image-upload-wrap">
+    <input class="file-upload-input" type='file' onchange="readURL(this);" accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel" name="fileToUpload" id="fileToUpload" />
+    <div class="drag-text">
+      <h3>Drag and drop a file or select add excel file</h3>
+    </div>
+  </div>
+  <div class="file-upload-content">
+    <img class="file-upload-image" src="#" alt="your excel file" />
+    <div class="image-title-wrap">
+      <button type="button" onclick="removeUpload()" class="remove-image">Remove <span class="image-title">Uploaded Excel File</span></button>
+    </div>
+	
+	
+   
+   
+  </div>
+  
+  
+  
+   <input type="submit" value="Upload products" name="submit" class="file-upload-btn">
+  </form>
+</div>
+    
+    
+      <p style="padding-top:40px" class="text-center top_spac"></p> 
+    </body>
+    </htm/>
